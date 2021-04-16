@@ -34,7 +34,7 @@ rown = c("",unlist(strsplit(seq2,split="")))
 move = M
 ```
 
-### Initialize the first row and first column of M
+### Initialize matrix M
 
 ```{r}
 
@@ -47,7 +47,7 @@ for(i in 2:nrow) move[i,1] = 2
 M
 ```
 
-### Fill in the matrix M
+### Fill in matrix M
 
 ```{r}
 for(i in 2:nrow){
@@ -111,7 +111,7 @@ result$alignment = alg
 result
 ```
 
-### a wrapper function for Needleman-Wunch algorithm
+### A wrapper function for Needleman-Wunch algorithm
 
 ```{r}
 Needleman_Wunch <- function(seq1, seq2, score){
