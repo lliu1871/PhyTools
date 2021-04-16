@@ -9,7 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-### Define the score function and two input sequences for alignment
+### Define a score function and two input sequences for alignment
 
 
 ```{r}
